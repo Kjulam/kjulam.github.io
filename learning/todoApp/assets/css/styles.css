@@ -1,0 +1,48 @@
+body {
+    background-color: #0F0F0F;
+}
+
+.todoApp {
+    width: 98%;
+    height: 500px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 1%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.todoAppTitle {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.todoFrom {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 23%;
+}
+
+.todoInput {
+    border: 1px solid #DFE1E5;
+    outline: none;
+    width: 60%;
+    height: 50px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 15px;
+}
+
+.todoAddButton {
+    width: 100px;
+    height: 52px;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    line-height: 52px;
+    cursor: pointer;
+    user-select: none;
+}
