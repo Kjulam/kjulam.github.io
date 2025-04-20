@@ -13,19 +13,19 @@ body {
     box-sizing: border-box;
 }
 
-.todoAppTitle {
+.todo-app-title {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
 }
 
-.todoFrom {
+.todo-from {
     display: flex;
     margin-top: 20px;
     margin-left: 23%;
 }
 
-.todoInput {
+.todo-input {
     border: 1px solid #DFE1E5;
     outline: none;
     width: 60%;
@@ -35,7 +35,7 @@ body {
     margin-bottom: 20px;
 }
 
-.todoAddButton {
+.add-todo-button {
     width: 100px;
     height: 52px;
     border-radius: 0 20px 20px 0;
